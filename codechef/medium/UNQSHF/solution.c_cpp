@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N;
+        cin >> N;
+
+        string A, B;
+        cin >> A >> B;
+
+        int countA = 0;
+        int countB = 0;
+
+        // Count 'a' in A
+        for (int i = 0; i < N; i++) {
+            if (A[i] == 'a') {
+                countA++;
+            }
+        }
+
+        // Count 'a' in B
+        for (int i = 0; i < N; i++) {
+            if (B[i] == 'a') {
+                countB++;
+            }
+        }
+
+        if (countA + countB == N) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+    }
+
+    return 0;
+}
+
+
