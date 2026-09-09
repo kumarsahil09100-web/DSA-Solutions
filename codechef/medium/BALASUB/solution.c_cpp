@@ -9,33 +9,49 @@ int main() {
         int N;
         cin >> N;
 
-        string A, B;
-        cin >> A;
-        cin >> B;
+        vector<int> A(N);
 
-        int countA = 0;
-        int countB = 0;
-
-        // Count 'a' in A
         for (int i = 0; i < N; i++) {
-            if (A[i] == 'a') {
-                countA++;
+            cin >> A[i];
+        }
+
+        bool found = false;
+
+        // Try every starting point
+        for (int L = 0; L < N && !found; L++) {
+
+            int prefixMax = A[L];
+            int prefixCount = 1;
+
+            // Extend R
+            for (int R = L + 1; R < N; R++) {
+
+                if (A[R] >= prefixMax) {
+                    prefixMax = A[R];
+                    prefixCount++;
+                }
+
+                // Calculate suffix maximums
+                int suffixMax = A[R];
+                int suffixCount = 1;
+
+                for (int i = R - 1; i >= L; i--) {
+                    if (A[i] >= suffixMax) {
+                        suffixMax = A[i];
+                        suffixCount++;
+                    }
+                }
+
+                if (prefixCount == suffixCount) {
+                    cout << L + 1 << " " << R + 1 << endl;
+                    found = true;
+                    break;
+                }
             }
         }
 
-        // Count 'a' in B
-        for (int i = 0; i < N; i++) {
-            if (B[i] == 'a') {
-                countB++;
-            }
-        }
-
-        // For every position, characters must be different
-        if (countA + countB == N) {
-            cout << "YES" << endl;
-        }
-        else {
-            cout << "NO" << endl;
+        if (!found) {
+            cout << -1 << endl;
         }
     }
 
