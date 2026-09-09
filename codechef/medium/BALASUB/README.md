@@ -75,7 +75,7 @@ So, we output $-1$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:57:27.234Z  
+**Submitted:** 2026-09-09T15:56:19.863Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
