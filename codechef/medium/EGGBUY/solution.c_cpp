@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	long X,Y,F;
+	cin>>X>>Y>>F;
+	if(12*X>(12*Y)+F){
+	    cout<<(12*Y)+F;
+	}
+	else{
+	    cout<<12*X;
+	}
+
+}
