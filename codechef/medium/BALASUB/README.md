@@ -75,15 +75,67 @@ So, we output $-1$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:52:50.729Z  
+**Submitted:** 2026-09-09T15:54:13.762Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N;
+        cin >> N;
+
+        vector<int> A(N);
+
+        for (int i = 0; i < N; i++) {
+            cin >> A[i];
+        }
+
+        bool found = false;
+
+        // Try every starting point
+        for (int L = 0; L < N && !found; L++) {
+
+            int prefixMax = A[L];
+            int prefixCount = 1;
+
+            // Extend R
+            for (int R = L + 1; R < N; R++) {
+
+                if (A[R] >= prefixMax) {
+                    prefixMax = A[R];
+                    prefixCount++;
+                }
+
+                // Calculate suffix maximums
+                int suffixMax = A[R];
+                int suffixCount = 1;
+
+                for (int i = R - 1; i >= L; i--) {
+                    if (A[i] >= suffixMax) {
+                        suffixMax = A[i];
+                        suffixCount++;
+                    }
+                }
+
+                if (prefixCount == suffixCount) {
+                    cout << L + 1 << " " << R + 1 << endl;
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        if (!found) {
+            cout << -1 << endl;
+        }
+    }
+
+    return 0;
 }
 
 ```
