@@ -9,33 +9,63 @@ int main() {
         int N;
         cin >> N;
 
-        string A, B;
-        cin >> A;
-        cin >> B;
+        vector<int> A(N);
 
-        int countA = 0;
-        int countB = 0;
-
-        // Count 'a' in A
         for (int i = 0; i < N; i++) {
-            if (A[i] == 'a') {
-                countA++;
+            cin >> A[i];
+        }
+
+        bool found = false;
+
+        // Case 1: Two adjacent elements are equal
+        for (int i = 0; i < N - 1; i++) {
+            if (A[i] == A[i + 1]) {
+                cout << i + 1 << " " << i + 2 << endl;
+                found = true;
+                break;
             }
         }
 
-        // Count 'a' in B
-        for (int i = 0; i < N; i++) {
-            if (B[i] == 'a') {
-                countB++;
+        if (found)
+            continue;
+
+        // Case 2: An internal element is >= both neighbours
+        for (int i = 1; i < N - 1; i++) {
+            if (A[i] >= A[i - 1] && A[i] >= A[i + 1]) {
+                cout << i << " " << i + 2 << endl;
+                found = true;
+                break;
             }
         }
 
-        // For every position, characters must be different
-        if (countA + countB == N) {
-            cout << "YES" << endl;
+        if (found)
+            continue;
+
+        // Case 3: Same maximum appears again before a larger element
+        //
+        // Stack contains decreasing values.
+        // If current value == stack top,
+        // then we have two equal maximums.
+
+        vector<pair<int, int>> st; // {value, index}
+
+        for (int i = 0; i < N; i++) {
+
+            while (!st.empty() && st.back().first < A[i]) {
+                st.pop_back();
+            }
+
+            if (!st.empty() && st.back().first == A[i]) {
+                cout << st.back().second + 1 << " " << i + 1 << endl;
+                found = true;
+                break;
+            }
+
+            st.push_back({A[i], i});
         }
-        else {
-            cout << "NO" << endl;
+
+        if (!found) {
+            cout << -1 << endl;
         }
     }
 
