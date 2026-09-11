@@ -25,7 +25,7 @@ Learn Coding on CodeChef
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T16:29:06.616Z  
+**Submitted:** 2026-09-11T16:29:20.166Z  
 
 ```c_cpp
 #include <iostream>
