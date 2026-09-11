@@ -4,25 +4,43 @@
 
 ## Problem
 
-_Description not available._
+### Print all the arithematic operations
+
+Write a program that calculates and prints the results of arithmetic operations such as addition, subtraction, division, and multiplication between the numbers $8$ and $4$.
+
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+12
+4
+2
+32
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T17:14:32.793Z  
+**Submitted:** 2026-09-11T17:16:27.111Z  
 
 ```c_cpp
- #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-	for(int i=1;i<=5;i++){
-	    cout<<i<<"-"<<i*i<<endl;
-	}
+    // Write your code here
+    int a=8;
+    int b=4;
+    cout<<a+b<<endl<<a-b<<endl<<a/b<<endl<<a*b;
 
+    
 }
 
 ```
