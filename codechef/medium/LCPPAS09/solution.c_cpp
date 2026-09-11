@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // Write your code below 
+  cout<<12*9;
+  
+  return 0;
+}
