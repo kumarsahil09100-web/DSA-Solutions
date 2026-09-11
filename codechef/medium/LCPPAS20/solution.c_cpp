@@ -1,9 +1,10 @@
-#include <iostream>
+ #include <iostream>
 using namespace std;
 
 int main() {
-    // Your code here
-    cout<<"I"<<endl<<"love"<<endl<<"CodeChef";
+	// your code goes here
+	for(int i=1;i<=5;i++){
+	    cout<<i<<"-"<<i*i<<endl;
+	}
 
-    return 0;
 }
