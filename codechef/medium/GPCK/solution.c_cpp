@@ -8,10 +8,10 @@ int main() {
 	if(A==B){
 	    cout<<A;
 	}
-	else if(A>B){
+	else if(A>B) {
 	    cout<<B;
 	}
-	else (A<B){
+	else  {
 	    cout<<A;
 	}
 
