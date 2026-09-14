@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	long long A,B;
+	cin>>A>>B;
+	if(A==B){
+	    cout<<A;
+	}
+	else if(A>B){
+	    cout<<B;
+	}
+	else (A<B){
+	    cout<<A;
+	}
+
+};
