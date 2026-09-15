@@ -4,25 +4,37 @@
 
 ## Problem
 
-_Description not available._
+Print  **"Learn Coding on CodeChef"**  to the console.
+
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+Learn Coding on CodeChef
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T16:28:28.635Z  
+**Submitted:** 2026-09-15T16:17:41.688Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-  // Write your code below 
-  cout<<12*9;
-  
-  return 0;
+	// your code goes here
+	cout<<"Learn Coding on CodeChef";
+	
 }
+
 ```
 
 ---
