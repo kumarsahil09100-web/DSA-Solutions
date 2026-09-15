@@ -4,8 +4,6 @@
 
 ## Problem
 
-### Print I love CodeChef
-
 Write a C++ program that outputs the following message exactly as shown:
 
 ```
@@ -34,7 +32,7 @@ CodeChef
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T17:12:30.761Z  
+**Submitted:** 2026-09-15T16:18:58.426Z  
 
 ```c_cpp
 #include <iostream>
