@@ -8,9 +8,11 @@ int main() {
 	while(T--){
 	    int N,K;
 	    cin>>N>>K;
-	   if (K>=N)
-	   cout <<2*(K-N)<<endl;
-	   else
-	   cout << 0 << endl;
+	    if(N>K){
+	        cout<<0<<endl;
+	    }
+	    else (N=<K){
+	        cout<<2*(K-N);
+	    }
 	   
 }
