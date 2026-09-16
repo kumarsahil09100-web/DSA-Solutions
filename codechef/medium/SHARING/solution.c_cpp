@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int A,B;
+	long A,B;
 	cin>>A>>B;
-	int mid=(A+B)/2;
-	int sub=A-mid;
+	long mid=(A+B)/2;
+	long sub=A-mid;
 if(A==mid){
     cout<<"-1";
 }
