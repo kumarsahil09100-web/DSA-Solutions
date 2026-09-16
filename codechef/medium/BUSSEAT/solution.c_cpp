@@ -9,15 +9,10 @@ int main() {
 	    int N,K;
 	    cin>>N>>K;
 	    if(N>K){
-	        cout<<"0";
+	        cout<<0<<endl;
 	    }
-	    else if(N<K){
+	    else (N=<K){
 	        cout<<2*(K-N);
 	    }
-	    else{
-	        cout<<N;
-	    }
-	    cout<<endl;
-	}
-
+	   
 }
