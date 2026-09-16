@@ -54,7 +54,7 @@ Hence, persons $1$ and $3$ share a row in this instance, so there are $2$ people
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:18:03.301Z  
+**Submitted:** 2026-09-16T16:17:10.266Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -67,10 +67,12 @@ int main() {
 	while(T--){
 	    int N,K;
 	    cin>>N>>K;
-	   if (K>=N)
-	   cout <<2*(K-N)<<endl;
-	   else
-	   cout << 0 << endl;
+	    if(N>K){
+	        cout<<0<<endl;
+	    }
+	    else (N=<K){
+	        cout<<2*(K-N);
+	    }
 	   
 }
 
