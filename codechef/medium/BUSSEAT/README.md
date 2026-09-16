@@ -51,12 +51,12 @@ Hence, persons $1$ and $3$ share a row in this instance, so there are $2$ people
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:18:31.964Z  
+**Submitted:** 2026-09-16T16:18:18.839Z  
 
-```c_cpp
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -73,7 +73,7 @@ int main() {
 	   cout << 0 << endl;
 	   
 }
-}
+
 ```
 
 ---
