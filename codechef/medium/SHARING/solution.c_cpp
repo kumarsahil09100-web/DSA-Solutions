@@ -10,7 +10,10 @@ int main() {
 if(A>mid){
     cout<<sub;
 }
-else  {
+else if(A<mid) {
+    cout<<"-1";
+}
+else{
     cout<<"-1";
 }
 
