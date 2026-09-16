@@ -3,15 +3,15 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	long A,B;
+	int A,B;
 	cin>>A>>B;
-	long mid=(A+B)/2;
-	long sub=A-mid;
-if(A==mid){
-    cout<<"-1";
-}
-else {
+    int mid=(A+B)/2;
+	int sub=A-mid;
+if(A>mid){
     cout<<sub;
+}
+else  {
+    cout<<"-1";
 }
 
 
