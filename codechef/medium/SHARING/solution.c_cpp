@@ -5,10 +5,9 @@ int main() {
 	// your code goes here
 	int A,B;
 	cin>>A>>B;
-    int mid=(A+B)/2;
-	int sub=A-mid;
-if(A>mid){
-    cout<<sub;
+   
+if((A+B)%2==0){
+    cout<<(A-B)/2;
 }
 
 else{
