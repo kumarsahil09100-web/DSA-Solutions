@@ -60,9 +60,9 @@ There are no intersecting interval pairs. Hence, the answer is 0.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 36.3 MB (beats 73.63%)  
-**Submitted:** 2026-09-20T12:23:07.787Z  
+**Runtime:** 7 ms (beats 32.90%)  
+**Memory:** 36.4 MB (beats 43.11%)  
+**Submitted:** 2026-09-20T12:26:38.449Z  
 
 ```cpp
 class Solution {
