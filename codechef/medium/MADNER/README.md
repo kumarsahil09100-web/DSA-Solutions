@@ -73,13 +73,27 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:17:37.699Z  
+**Submitted:** 2026-09-21T15:22:58.696Z  
 
 ```c_cpp
 class Solution {
 public:
 int findMaximumPairs(const string &students) {
 // write your code here
+ int pairs =0;
+ int n=students.size();
+ 
+ for(int i=0;i<n-1;){
+     if(students[i]!=students[i+1]){
+         pairs++;
+         i +=2;
+     }else{
+         i++;
+     }
+ }
+ return pairs;
+}
+};
 
 
 ```
