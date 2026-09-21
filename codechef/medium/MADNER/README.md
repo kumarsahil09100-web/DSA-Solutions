@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:05:33.703Z  
+**Submitted:** 2026-09-21T15:08:43.757Z  
 
 ```c_cpp
 class Solution {
@@ -83,11 +83,11 @@ public:
         int T;
         cin>>T;
         while(T--){
-            string s;
+            string S;
             int m,n =0;
            
-            for(int i=0;i<s.size();i++){
-                if(s[i]=='x'){
+            for(int i=0;i<S.size();i++){
+                if(S[i]=='x'){
                     m++;
                 }
                 else{
