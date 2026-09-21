@@ -73,23 +73,37 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:10:50.817Z  
+**Submitted:** 2026-09-21T15:16:08.720Z  
 
 ```c_cpp
 class Solution {
 public:
-    int findMaximumPairs(const string &students) {
-        int x = 0, y = 0;
+int findMaximumPairs(const string &students) {
+// write your code here
+int T;
+cin>>T;
+while(T--){
 
-        for (char ch : students) {
-            if (ch == 'x')
-                x++;
-            else if (ch == 'y')
-                y++;
+int m,n =0;
+
+        for(int i=0;i<(int)students.size();i++){
+            if(students[i]=='x'){
+                m++;
+            }
+            else{
+                n++;
+            }
         }
-
-        return min(x, y);
+        if(m<=n){
+            cout<<m;
+        }
+        else{
+            cout<<n;
+        }
     }
+    
+}
+
 };
 
 ```
