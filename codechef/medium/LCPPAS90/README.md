@@ -61,7 +61,7 @@ Invalid choice
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T18:25:04.768Z  
+**Submitted:** 2026-09-21T18:26:00.760Z  
 
 ```c_cpp
 #include <iostream>
@@ -75,6 +75,7 @@ int main() {
             break;
         case 2:
             cout << "Option 2 selected";
+            break;
         case 3:
             cout << "Option 3 selected";
             break;
