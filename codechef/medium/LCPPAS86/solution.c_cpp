@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() { 
+
+  int number = 19;
+  cout << number;
+
+  return 0;
+}
