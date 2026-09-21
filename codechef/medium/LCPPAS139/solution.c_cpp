@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int calculatePower(int base, int exponent) {
+    // Complete the function
+    return pow(base,exponent)  ;
+    
+}
+
+int main() {
+    int base, exponent;
+    cin >> base >> exponent;
+    int result = calculatePower(base, exponent);
+    cout << result;
+
+    return 0;
+}
