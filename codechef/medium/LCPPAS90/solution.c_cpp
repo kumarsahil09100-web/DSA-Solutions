@@ -9,6 +9,7 @@ int main() {
             break;
         case 2:
             cout << "Option 2 selected";
+            break;
         case 3:
             cout << "Option 3 selected";
             break;
