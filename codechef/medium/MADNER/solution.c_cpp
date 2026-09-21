@@ -5,11 +5,11 @@ public:
         int T;
         cin>>T;
         while(T--){
-            string s;
+            string S;
             int m,n =0;
            
-            for(int i=0;i<s.size();i++){
-                if(s[i]=='x'){
+            for(int i=0;i<S.size();i++){
+                if(S[i]=='x'){
                     m++;
                 }
                 else{
