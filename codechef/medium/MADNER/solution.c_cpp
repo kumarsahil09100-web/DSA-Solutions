@@ -1,28 +1,29 @@
 class Solution {
 public:
-    int findMaximumPairs(const string &students) {
-        // write your code here 
-        int T;
-        cin>>T;
-        while(T--){
-            string S;
-            int m,n =0;
-           
-            for(int i=0;i<S.size();i++){
-                if(S[i]=='x'){
-                    m++;
-                }
-                else{
-                    n++;
-                }
-            }
-            if(m<=n){
-                cout<<m;
+int findMaximumPairs(const string &students) {
+// write your code here
+int T;
+cin>>T;
+while(T--){
+
+int m,n =0;
+
+        for(int i=0;i<(int)students.size();i++){
+            if(students[i]=='x'){
+                m++;
             }
             else{
-                cout<<n;
+                n++;
             }
         }
-        
+        if(m<=n){
+            cout<<m;
+        }
+        else{
+            cout<<n;
+        }
     }
+    
+}
+
 };
