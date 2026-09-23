@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n=4;
+	string s[n];
+	if(s[0]==s[2] && s[1]==s[3]){
+	    cout<<"yes";
+	}
+	else{
+	    cout<<"no";
+	}
+
+}
