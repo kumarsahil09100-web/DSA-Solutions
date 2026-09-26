@@ -61,8 +61,8 @@ The queen is already at the target position, so no moves are needed.
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 50.4 MB (beats 55.56%)  
-**Submitted:** 2026-09-26T14:59:43.863Z  
+**Memory:** 50.3 MB (beats 55.56%)  
+**Submitted:** 2026-09-26T14:59:53.484Z  
 
 ```cpp
 
