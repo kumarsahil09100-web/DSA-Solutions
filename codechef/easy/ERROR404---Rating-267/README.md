@@ -79,7 +79,7 @@ Since the response code is not $404$, website returns `FOUND`.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T17:29:28.620Z  
+**Submitted:** 2026-09-28T17:29:58.245Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
