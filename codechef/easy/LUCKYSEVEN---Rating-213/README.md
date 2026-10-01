@@ -55,7 +55,7 @@ The $7$-th character of $\texttt{"outofsight"}$ is `'i'`, and hence that is Chef
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T15:49:02.193Z  
+**Submitted:** 2026-10-01T16:32:09.084Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
