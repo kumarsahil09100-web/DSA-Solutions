@@ -26,7 +26,7 @@ Explanation: Strings after each rotation are "baca", "acab", "caba", "abac" and 
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T06:06:14.670Z  
+**Submitted:** 2026-10-02T06:06:38.285Z  
 
 ```cpp
 class Solution {
