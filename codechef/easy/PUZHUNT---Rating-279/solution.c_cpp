@@ -3,17 +3,13 @@ using namespace std;
 
 int main() {
 	// your code goes here
-int T;
-cin>>T;
-while(T--){
-    int X;
-    cin>>X;
-    if(X>=30){
-        cout<<"yes";
-    }
-    else {
-        cout<<"no";
-    }
-    cout<<endl;
-}
+	int n;
+	cin>>n;
+	if(n>=6&&n<=8){
+	    cout<<"yes";
+	}
+	else{
+	    cout<<"no";
+	}
+
 }
