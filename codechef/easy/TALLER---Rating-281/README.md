@@ -49,7 +49,7 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T15:59:00.959Z  
+**Submitted:** 2026-10-02T16:03:23.095Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -57,11 +57,19 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int n,m;
-	cin>>n>>m;
-	int x,y;
-	cin>>x>>y;
-	cout<<(n*x)+(m*y);
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y){
+	        cout<<'A';
+	    }
+	    else{
+	        cout<<'B';
+	    }
+	    cout<<endl;
+	}
 
 }
 
