@@ -3,10 +3,18 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int n,m;
-	cin>>n>>m;
-	int x,y;
-	cin>>x>>y;
-	cout<<(n*x)+(m*y);
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y){
+	        cout<<'A';
+	    }
+	    else{
+	        cout<<'B';
+	    }
+	    cout<<endl;
+	}
 
 }
