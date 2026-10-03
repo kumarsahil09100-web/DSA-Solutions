@@ -11,7 +11,7 @@ _Description not available._
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T16:10:25.759Z  
+**Submitted:** 2026-10-03T16:17:31.544Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
