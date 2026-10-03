@@ -42,7 +42,7 @@ $4$ notes of Rs. $2000$ make a total of $4 \cdot 2000 = 8000$ rupees. This is eq
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T16:10:23.468Z  
+**Submitted:** 2026-10-03T16:17:20.939Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
