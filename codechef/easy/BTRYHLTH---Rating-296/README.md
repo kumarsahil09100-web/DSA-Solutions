@@ -4,60 +4,61 @@
 
 ## Problem
 
-### Counting Words
+### Battery Health
 
-Harsh was recently gifted a book consisting of $N$ pages. Each page contains exactly $M$ words printed on it. As he was bored, he decided to count the number of words in the book.
+Apple considers any iPhone with a battery health of $80\%$ or above, to be in  *optimal*  condition.
 
-Help Harsh find the total number of words in the book.
+Given that your iPhone has $X\%$ battery health, find whether it is in  *optimal*  condition.
 
 ### Input Format
 - The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of two space-separated integers on a single line, $N$ and $M$ — the number of pages and the number of words on each page, respectively.
+- The first and only line of each test case contains an integer $X$ — the battery health.
 ### Output Format
 
-For each test case, output on a new line, the total number of words in the book.
+For each test case, output on a new line, `YES`, if the battery is in  *optimal*  condition, and `NO` otherwise.
+
+You may print each character in uppercase or lowercase. For example, `NO`, `no`, `No` and `nO`, are all considered identical.
 
 ### Constraints
 - $1 \leq T \leq 100$
-- $1 \leq N \leq 100$
-- $1 \leq M \leq 100$
+- $0 \leq X \leq 100$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-1 1
-4 2
-2 4
-95 42
+97
+42
+80
+10
 
 ```
 
 ```
-1
-8
-8
-3990
+YES
+NO
+YES
+NO
 
 ```
 
 ### Explanation:
 
- **Test case $1$:**  The book consists of only $1$ page, and each page has only $1$ word. Hence, the total number of words is $1$.
+ **Test case $1$:**  The battery health is $97 \%$ which is greater than equal to $80 \%$. Thus, the battery is in optimal condition.
 
- **Test case $2$:**  The book consists of $4$ pages, and each page has $2$ words. Hence, the total number of words is $2+2+2+2=8$.
+ **Test case $2$:**  The battery health is $42 \%$ which is less than $80 \%$. Thus, the battery is not in optimal condition.
 
- **Test case $3$:**  The book consists of $2$ pages, and each page has $4$ words. Hence, the total number of words is $4+4=8$.
+ **Test case $3$:**  The battery health is $80 \%$ which is greater than equal to $80 \%$. Thus, the battery is in optimal condition.
 
- **Test case $4$:**  The book consists of $95$ pages, and each page has $42$ words. Hence, the total number of words is $3990$.
+ **Test case $4$:**  The battery health is $10 \%$ which is less than $80 \%$. Thus, the battery is not in optimal condition.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T17:00:30.619Z  
+**Submitted:** 2026-10-04T17:06:31.931Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -67,11 +68,18 @@ int main() {
 	// your code goes here
 	int t;
 	cin>>t;
-	while(t--){
-	    int n,m;
-	    cin>>n>>m;
-	    cout<<n*m<<endl;
+	while(t>0){
+	    int x;
+	    cin>>x;
+	    if(x>=80){
+	        cout<<"yes";
+	    }
+	    else{
+	        cout<<"no";}
+	    t -=1;
+	    cout<<endl;
 	}
+	
 
 }
 
