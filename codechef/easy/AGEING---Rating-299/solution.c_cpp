@@ -6,9 +6,14 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int x;
-	    cin>>x;
-	    cout<<x-10<<endl;
+	int n,x;
+	cin>>n>>x;
+	if(n<=x){
+	    cout<<"yes";
 	}
-
+	else{
+	    cout<<"no";
+	}
+	cout<<endl;
+}
 }
