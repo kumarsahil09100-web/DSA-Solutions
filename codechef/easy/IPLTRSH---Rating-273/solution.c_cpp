@@ -4,16 +4,11 @@ using namespace std;
 int main() {
 	// your code goes here
 	int T;
-	cin>>T;
+	cin>> T;
 	while(T--){
-	    int M,N;
-	    cin>>M>>N;
-	    if((N-M)>=0){
-	        cout<<"0"<<endl;
-	    }
-	    else{
-	        cout<<M-N<<endl;
-	    }
+	    int X,Y;
+	    cin>>X>>Y;
+	    cout<<Y-X<<endl;
 	}
 
 }
