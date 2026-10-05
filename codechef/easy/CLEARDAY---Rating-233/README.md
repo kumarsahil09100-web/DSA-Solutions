@@ -57,7 +57,7 @@ If there are $3$ rainy days and $4$ cloudy days, then the remaining $7-3-4=0$ da
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T16:40:09.258Z  
+**Submitted:** 2026-10-05T15:05:56.037Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
