@@ -58,7 +58,7 @@ NO
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:02:07.766Z  
+**Submitted:** 2026-10-05T15:03:06.865Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main() {
 	while(t--){
 	    int  x;
 	    cin>>x;
-	    if((3*x)>=1000){
+	    if((3*x)>1000){
 	        cout<<"no";
 	        
 	    }
