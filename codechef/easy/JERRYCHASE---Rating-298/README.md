@@ -60,7 +60,7 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T17:12:01.326Z  
+**Submitted:** 2026-10-06T16:22:18.036Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
