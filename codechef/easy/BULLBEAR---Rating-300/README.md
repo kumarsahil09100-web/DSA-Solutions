@@ -58,7 +58,7 @@ LOSS
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:59:26.861Z  
+**Submitted:** 2026-10-06T16:23:21.499Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
