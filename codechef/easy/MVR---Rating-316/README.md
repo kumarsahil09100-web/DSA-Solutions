@@ -84,7 +84,7 @@ Messi has $150$ points, whereas Ronaldo has $180$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T16:03:51.493Z  
+**Submitted:** 2026-10-06T16:04:05.900Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
