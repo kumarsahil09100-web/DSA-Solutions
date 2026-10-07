@@ -67,7 +67,7 @@ The die has $4$ faces, numbered $3, 6, 9, 12$. Since $15$ is not one of these fa
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:41:38.642Z  
+**Submitted:** 2026-10-07T14:41:48.597Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
