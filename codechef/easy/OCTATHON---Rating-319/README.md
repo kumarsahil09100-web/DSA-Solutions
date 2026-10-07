@@ -78,7 +78,7 @@ Chefina took $6$ hours to complete the marathon. Thus, she gets a `BRONZE` medal
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:31:24.718Z  
+**Submitted:** 2026-10-07T14:31:32.927Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
