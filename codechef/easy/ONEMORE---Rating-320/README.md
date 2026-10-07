@@ -59,7 +59,7 @@ No
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:40:26.262Z  
+**Submitted:** 2026-10-07T15:41:47.807Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main() {
 	while(t--){
 	    int  x;
 	    cin>>x;
-	    if(x>=30){
+	    if(x>24){
 	        cout<<"yes";
 	        
 	    }
