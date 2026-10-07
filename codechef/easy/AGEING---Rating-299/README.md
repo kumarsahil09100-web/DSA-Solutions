@@ -4,63 +4,60 @@
 
 ## Problem
 
-### Right There
+### Ageing
 
-*If you wanna party, if you, if you wanna party
-Then put your hands up*
+Chef's current age is $20$ years, while Chefina's current age is $10$ years.
+Determine Chefina's age when Chef will be $X$ years old.
 
-Chef wants to host a party with a total of $N$ people.
-However, the party hall has a capacity of $X$ people. Find whether Chef can host the party.
+Note: Assume that Chef and Chefina were born on same day and same month (just different year).
 
 ### Input Format
 - The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of two space-separated integers $N$ and $X$ — the total number of people and the capacity of the party hall.
+- Each test case consists of a single integer $X$, the age of Chef.
 ### Output Format
 
-For each test case, output on a new line, `YES`, if Chef can host the party and `NO` otherwise.
-
-Each character of the output may be printed in either uppercase or lowercase. That is, the strings `NO`, `no`, `nO`, and `No` will be treated as equivalent.
+For each test case, output Chefina's age when Chef will be $X$ years old.
 
 ### Constraints
-- $1 \leq T \leq 100$
-- $1 \leq N, X \leq 10$
+- $1 \leq T \leq 25$
+- $25 \leq X \leq 50$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-2 5
-4 3
-6 6
-10 9
+25
+36
+50
+44
 
 ```
 
 ```
-YES
-NO
-YES
-NO
+15
+26
+40
+34
 
 ```
 
 ### Explanation:
 
- **Test case $1$:**  Chef wants to host a party with $2$ people. Since the capacity of the hall is $5$, he can host the party.
+ **Test case $1$:**  Chefina is $10$ years old when Chef is $20$ years old. Thus, when Chef would be $25$, Chefina would be $15$.
 
- **Test case $2$:**  Chef wants to host a party with $4$ people. Since the capacity of the hall is $3$, he can not host the party.
+ **Test case $2$:**  Chefina is $10$ years old when Chef is $20$ years old. Thus, when Chef would be $36$, Chefina would be $26$.
 
- **Test case $3$:**  Chef wants to host a party with $6$ people. Since the capacity of the hall is $6$, he can host the party.
+ **Test case $3$:**  Chefina is $10$ years old when Chef is $20$ years old. Thus, when Chef would be $50$, Chefina would be $40$.
 
- **Test case $4$:**  Chef wants to host a party with $10$ people. Since the capacity of the hall is $9$, he can not host the party.
+ **Test case $4$:**  Chefina is $10$ years old when Chef is $20$ years old. Thus, when Chef would be $44$, Chefina would be $34$.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T17:23:05.559Z  
+**Submitted:** 2026-10-07T15:43:36.082Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -71,16 +68,11 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	int n,x;
-	cin>>n>>x;
-	if(n<=x){
-	    cout<<"yes";
+	    int x;
+	    cin>>x;
+	    cout<<x-10<<endl;
 	}
-	else{
-	    cout<<"no";
-	}
-	cout<<endl;
-}
+
 }
 
 ```
