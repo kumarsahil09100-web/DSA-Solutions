@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,k,y;
+	cin>>x>>k>>y;
+	if((y/k)<=x&&(y%k)==0){
+	    cout<<"yes";
+	}
+	else{
+	    cout<<"no";
+	}
+
+}
