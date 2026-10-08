@@ -63,7 +63,7 @@ HEAVY
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T13:35:02.228Z  
+**Submitted:** 2026-10-08T13:35:24.440Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
