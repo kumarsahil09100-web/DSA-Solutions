@@ -50,26 +50,13 @@ Output
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T13:09:20.387Z  
+**Submitted:** 2026-10-08T13:09:56.790Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-    while(t--){
-        int x,y;
-        cin>>x>>y;
-        cout<<y/x<<endl;
-    }
-
-}
+```py
+# cook your dish here
 
 ```
 
