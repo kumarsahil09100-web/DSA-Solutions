@@ -60,36 +60,22 @@ HEAVY
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T13:35:24.440Z  
+**Submitted:** 2026-10-08T13:43:14.399Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	while(t--){
-	    int x;
-	    cin>>x;
-	    if(x>=7){
-	        cout<<"heavy";
-	    }
-	    else if(x<3){
-	        cout<<"light";
-	    }
-	    else{
-	        cout<<"moderate";
-	    }
-	    cout<<endl;
-	}
-
-}
-
+```py
+# cook your dish here
+t = int(input())
+for i in range(t):
+    x= int(input())
+    if(x<3):
+        print("light")
+    elif (x>=7):
+        print("heavy")
+    else:
+        print("moderate")
 ```
 
 ---
