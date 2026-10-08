@@ -50,27 +50,17 @@ Output
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T13:09:25.138Z  
+**Submitted:** 2026-10-08T13:18:27.599Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-    while(t--){
-        int x,y;
-        cin>>x>>y;
-        cout<<y/x<<endl;
-    }
-
-}
-
+```py
+# cook your dish here
+t=int(input())
+for i in range (t):
+    x, y = map(int,input().split())
+    print(y//x)
 ```
 
 ---
