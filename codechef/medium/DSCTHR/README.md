@@ -67,7 +67,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T15:01:27.506Z  
+**Submitted:** 2026-10-12T15:00:09.483Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -80,11 +80,11 @@ int main() {
 	while(t--){
 	    int a,b,c;
 	    cin>>a>>b>>c;
-	    if(a>=b &&a>=c){
+	    if(a>b &&a>c){
 	        
 	        cout<<a;
 	    }
-	    else if(b>a && b>=c){
+	    else if(b>a && b>c){
 	        cout<<b;
 	    }
 	    else{
