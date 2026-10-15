@@ -61,12 +61,12 @@ Even if Om uses the whole Gymkhana fund, he won't be able to buy the laptop.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-15T13:50:37.565Z  
+**Submitted:** 2026-10-15T13:53:12.531Z  
 
 ```py
 # cook your dish here
 x,n,m = map(int, input().split())
-if((x+n)==m):
+if((x+m)>=n):
     print("yes")
 else:
     print("no")
