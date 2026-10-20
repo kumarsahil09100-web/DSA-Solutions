@@ -56,7 +56,7 @@ $4+12 = 16$, and the calculator appends a $1$ to print $161$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:07:02.413Z  
+**Submitted:** 2026-10-19T13:55:20.939Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
