@@ -64,12 +64,12 @@ After learning a musical instrument, Chef's final IQ will be $120+7=127$. Since 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T13:40:17.744Z  
+**Submitted:** 2026-10-21T13:41:08.669Z  
 
 ```py
 # cook your dish here
 x = int(input())
-if(x*7>=170):
+if(x+7>=170):
     print("yes")
 else:
     print("no")
