@@ -46,13 +46,32 @@ A
 
 ## Solution
 
-**Language:** Python  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T15:24:14.962Z  
+**Submitted:** 2026-10-23T15:24:20.577Z  
 
-```py
-# cook your dish here
+```c_cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y){
+	        cout<<'A';
+	    }
+	    else{
+	        cout<<'B';
+	    }
+	    cout<<endl;
+	}
+
+}
 
 ```
 
