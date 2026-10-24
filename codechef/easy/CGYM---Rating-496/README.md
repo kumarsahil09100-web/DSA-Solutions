@@ -54,7 +54,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T16:51:40.876Z  
+**Submitted:** 2026-10-24T16:52:11.195Z  
 
 ```py
 # cook your dish here
@@ -63,11 +63,7 @@ for i in range(t):
     x,y,z = map(int, input().split())
     if(y+x <=z):
         print('2')
-    else:
-        if(x < z):
-            print('1')
-        else:
-            print('0')
+    el
             
    
     
