@@ -4,7 +4,10 @@ for i in range(t):
     x,y,z = map(int, input().split())
     if(y+x <=z):
         print('2')
-    el
+    elif x <= z:
+        print('1')
+    else:
+        print('0')
             
    
     
