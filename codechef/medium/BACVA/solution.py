@@ -1,12 +1,14 @@
 # cook your dish here
 t = int(input())
 
-for _ in range(t):
-  
-    a = list(map(int, input().split()))
-
+for i in range(t):
+    a = input()
     s = 0
-    for i in range(n):
-        s += a[i]
 
-    print(s)
+    for j in a:
+        s += int(j)
+
+    if s % 10 == 0:
+        print("Valid")
+    else:
+        print("Invalid")
