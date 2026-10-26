@@ -57,21 +57,23 @@ For the third account number, the digit sum is $10$, which is divisible by $10$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T15:46:57.774Z  
+**Submitted:** 2026-10-26T15:47:41.240Z  
 
 ```py
 # cook your dish here
 t = int(input())
 
-for _ in range(t):
-  
-    a = list(map(int, input().split()))
-
+for i in range(t):
+    a = input()
     s = 0
-    for i in range(n):
-        s += a[i]
 
-    print(s)
+    for j in a:
+        s += int(j)
+
+    if s % 10 == 0:
+        print("Valid")
+    else:
+        print("Invalid")
 ```
 
 ---
