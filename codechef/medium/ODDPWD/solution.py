@@ -1,4 +1,5 @@
 # cook your dish here
-s = input(5)
-for i in range(s.length()):
-    print(s(0),s(2),s(4))
+s = input()
+for i in range(len(s)):
+    if(i%2==0):
+        print(s[i] , end="")
