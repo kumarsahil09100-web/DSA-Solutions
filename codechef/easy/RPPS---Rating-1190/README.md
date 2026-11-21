@@ -72,7 +72,7 @@ Therefore, the answer is  **1**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-05T12:36:46.103Z  
+**Submitted:** 2026-11-21T15:16:22.046Z  
 
 ```py
 # cook your dish here
