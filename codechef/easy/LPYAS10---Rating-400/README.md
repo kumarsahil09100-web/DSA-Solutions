@@ -13,7 +13,7 @@ Print  **"Learn Coding on CodeChef"**  to the console.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T15:42:03.589Z  
+**Submitted:** 2026-11-23T15:42:08.390Z  
 
 ```py
 # cook your dish here
